@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lesson-27"
+version = "0.1.0"
+description = ""
+authors = ["HAMarat <smile56680@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lesson_27"}]
+
+[tool.poetry.dependencies]
+python = "3.11"
+django = "^4.2.1"
+psycopg2 = "^2.9.6"
+pillow = "^9.5.0"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
